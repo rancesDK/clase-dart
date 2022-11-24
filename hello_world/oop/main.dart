@@ -1,6 +1,7 @@
 //import 'dart:js_util';
 
 //import 'Dog.dart';
+import 'GettersSetters.dart';
 import 'inhertasnce.dart';
 import 'mixins.dart';
 
@@ -36,5 +37,11 @@ void main() {
     pat.caminar();
     pat.nadar();
     pat.volar();
+
+    User cesar=new User("Cesar", "12345666");
+    //cesar._password="54321";
+    cesar.password="123456789";
+    print(cesar.username);
+    print(cesar.password);
   
 }
